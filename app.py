@@ -33,7 +33,6 @@ def welcome():
     /api/v1.0/tobs
     /api/v1.0/temp/start/end
     ''')
-@app.route("/api/v1.0/precipitation")
 
 if __name__ == "__main__":
     app.run()
